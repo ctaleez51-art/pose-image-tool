@@ -1,0 +1,16 @@
+{
+  "run_id": "02",
+  "프롬프트": "an astronaut in a white spacesuit, jumping with arms and legs spread wide, photorealistic, studio lighting, plain background",
+  "네거티브": "lowres, bad anatomy, extra limbs, deformed hands, worst quality",
+  "시드": 20260920,
+  "스텝": 4,
+  "cfg": 2.5,
+  "해상도": "1024x1536",
+  "참조모드": "뼈대",
+  "샘플러": "euler / simple",
+  "모델": "flux-2-klein-4b-Q4_K_M.gguf",
+  "텍스트인코더": "qwen_3_4b.safetensors",
+  "vae": "flux2-vae.safetensors",
+  "포즈추출": "OpenposePreprocessor (comfyui_controlnet_aux)",
+  "포즈투입": "ReferenceLatent (ControlNet 미사용)"
+}
