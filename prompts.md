@@ -8,7 +8,7 @@
 | 번호 | 포즈 이미지 | 프롬프트 | 결과 이미지 | 메모 |
 |---|---|---|---|---|
 | 1 | samples/pose_01.png | `an astronaut in a white spacesuit, jumping with arms and legs spread wide, photorealistic, studio lighting, plain background` | samples/output_01.png | 자세가 그대로 옮겨졌다. 팔 V자·다리 역V자·공중 체공·펼친 손가락까지. 인물은 원본과 무관. 왼손 손가락이 4개로 생성된 결함 있음 |
-| 2 | samples/pose_02.png | 1번과 동일 | samples/output_02.png | 몸 방향(측면)과 팔다리 위치는 따라왔으나 **두 다리의 역할이 뒤바뀜**. 뻗은 다리와 접은 다리가 서로 자리를 바꿈 |
+| 2 | samples/pose_02.png | 1번과 동일 | samples/output_02.png | 몸 방향(측면)과 두 팔의 좌우는 따라왔으나 **두 다리의 좌우가 뒤바뀜**. 팔은 그대로여서 같은 쪽 팔다리가 함께 앞뒤로 가는, 사람이 실제로는 하지 않는 자세가 됨 |
 
 3단 비교 이미지: `samples/compare_01.png`, `samples/compare_02.png` (왼쪽부터 참조 사진 / 뼈대 / 결과)
 
